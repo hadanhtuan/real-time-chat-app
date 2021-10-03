@@ -19,6 +19,7 @@
   "homepage": "https://github.com/hadanhtuan/real-time-chat-app#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "moment": "^2.29.1",
     "socket.io": "^4.2.0"
   },
   "devDependencies": {

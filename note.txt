@@ -1,0 +1,74 @@
+Moment.js là một thư viện để làm việc với đối tượng date trên một trường browser và môi trường Nodejs.
+
+
+Lấy ngày và giờ hiện tại
+const date = moment()  //date là một ĐỐI TƯỢNG moment,
+
+in moment().format("YYYY D MM")  // Chuyển đối tượng moment sang string
+https://codetheworld.io/huong-dan-su-dung-moment-js-co-ban.html
+
+utils (folder where you put random stuff you don’t know where to put otherwise)
+
+!IMPORTANT: khi tải js nếu mà có lỗi thì nó sẽ ngưng ở dòng đó mà không tải nữa
+
+
+
+//     socket.on('joinRoom', (userInf) => {
+//         console.log(123)
+
+//         userHandle.addUser(socket.id, userInf.userName, userInf.roomName)
+
+//         socket.join(userInf.roomName)
+
+//         //when new client connected
+//         socket
+//         .to(userInf.roomName)
+//         .emit('message', 'wellcome to the chatcord')
+
+//         //message to another client
+//         socket.broadcast
+//         .to(userInf.roomName)
+//         .emit('message', 'A user has join the chat')
+//     })
+
+action: địa chỉ mà dữ liệu của form gửi đến, thường là gửi đến trang web ở server
+method = GET  gửi form thụ động, dữ liệu không cần mã hóa, dữ liệu form sẽ được nhìn thấy trên url: action_page.php?HoDem=Trần+Hùng&Ten=Dũng
+method = POST gửi tài khoản mật khẩu, thẻ ngân hàng, ....
+
+
+html:
+    <form action="abc.com" method="POST">
+        <input>
+        <button>
+    </form>
+
+server:
+    router.post('abc.com', validate(req.query), (req,res)=>{
+        res.render('xyz.com', {userinf})
+    })
+
+main.js:
+    const userInf = $('...')
+    socket.emit('joinroom', {userInf.room})
+
+
+xóa hoặc thêm phần tử tại start
+splice(start)
+splice(start, deleteCount)
+splice(start, deleteCount, item1)
+splice(start, deleteCount, item1, item2, itemN)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
